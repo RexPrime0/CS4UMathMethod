@@ -289,13 +289,13 @@ public class MathGUI extends javax.swing.JFrame {
      */
      public static int Sqart(int num){
        double number = (double)num;
-        double squareroot = sqrt(number);
+        double squareroot = Math.sqrt(number);
         num = (int)squareroot;
         return num;
     }
     public static double Sqart(double num){
         double number = (double)num;
-        double squareroot = sqrt(number);
+        double squareroot = Math.sqrt(number);
         return number;
     }
 }
